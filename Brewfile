@@ -33,7 +33,7 @@ install narwhal
 install vim --override-system-vi
 install homebrew/dupes/grep
 install homebrew/dupes/screen
-install homebrew/php/php55 --with-gmp
+#install homebrew/php/php55 --with-gmp
 
 # Install other useful binaries
 install ack
@@ -55,10 +55,13 @@ install sqlmap
 install tree
 install ucspi-tcp # `tcpserver` et al.
 install webkit2png
-install xpdf
+#install xpdf
 install zopfli
 
 install homebrew/versions/lua52
+install libspotify
+
+
 
 # Remove outdated versions from the cellar
 cleanup
