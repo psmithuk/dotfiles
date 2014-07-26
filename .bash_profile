@@ -1,5 +1,5 @@
 # Golang
-export GOPATH='$HOME'
+export GOPATH="$HOME"
 
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
