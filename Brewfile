@@ -77,7 +77,7 @@ install redis
 install tmux
 install zeromq
 install ttyrec
-
+install awscli
 
 
 # Remove outdated versions from the cellar
