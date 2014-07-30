@@ -59,7 +59,24 @@ install webkit2png
 install zopfli
 
 install homebrew/versions/lua52
+install portaudio
+install portmidi
 install libspotify
+install ffmpeg
+install fftw
+install flac
+install jpeg
+install jq
+install lame
+install libpng
+install libsamplerate
+install libsvg
+install phantomjs
+install postgresql
+install redis
+install tmux
+install zeromq
+install ttyrec
 
 
 

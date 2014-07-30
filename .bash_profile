@@ -1,6 +1,10 @@
 # Golang
 export GOPATH="$HOME"
 
+# pkg-config
+
+export PKG_CONFIG_PATH="/usr/lib/pkgconfig:/usr/share/pkgconfig:/usr/local/lib/pkgconfig:/usr/local/share/pkgconfig:/usr/local/opt/libspotify/pkgconfig"
+
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 
