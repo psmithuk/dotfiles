@@ -23,3 +23,7 @@ cask install ios7-screensaver 2> /dev/null
 cask install arq 2> /dev/null
 cask install dash 2> /dev/null
 cask install bartender 2> /dev/null
+cask install superduper 2> /dev/null
+cask install omnigraffle 2> /dev/null
+cask install little-snitch 2> /dev/null
+cask install mactex 2> /dev/null
