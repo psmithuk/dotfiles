@@ -61,7 +61,7 @@ install zopfli
 install homebrew/versions/lua52
 install portaudio
 install portmidi
-install libspotify
+#install libspotify
 install ffmpeg
 install fftw
 install flac
@@ -78,7 +78,8 @@ install tmux
 install zeromq
 install ttyrec
 install awscli
-
+install hg
+install sox
 
 # Remove outdated versions from the cellar
 cleanup
