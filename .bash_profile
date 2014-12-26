@@ -2,11 +2,14 @@
 export GOPATH="$HOME"
 
 # pkg-config
-
 export PKG_CONFIG_PATH="/usr/lib/pkgconfig:/usr/share/pkgconfig:/usr/local/lib/pkgconfig:/usr/local/share/pkgconfig:/usr/local/opt/libspotify/pkgconfig"
 
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
+
+export HIVE_HOME=/usr/local/Cellar/hive/0.13.1/libexec
+export HCAT_HOME=/usr/local/Cellar/hive/0.13.1/libexec/hcatalog
+export JAVA_HOME="$(/usr/libexec/java_home)"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
