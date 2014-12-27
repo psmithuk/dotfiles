@@ -92,27 +92,27 @@ brew install zopfli
 brew install node
 
 
-install portaudio
-install portmidi
-#install libspotify
-install ffmpeg
-install fftw
-install flac
-install jpeg
-install jq
-install lame
-install libpng
-install libsamplerate
-install libsvg
-install phantomjs
-install postgresql
-install redis
-install tmux
-install zeromq
-install ttyrec
-install awscli
-install hg
-install sox
+brew install portaudio
+brew install portmidi
+#brew install libspotify
+brew install ffmpeg
+brew install fftw
+brew install flac
+brew install jpeg
+brew install jq
+brew install lame
+brew install libpng
+brew install libsamplerate
+brew install libsvg
+brew install phantomjs
+brew install postgresql
+brew install redis
+brew install tmux
+brew install zeromq
+brew install ttyrec
+brew install awscli
+brew install hg
+brew install sox
 
 # Remove outdated versions from the cellar.
 brew cleanup
