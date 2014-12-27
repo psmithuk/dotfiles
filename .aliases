@@ -144,21 +144,5 @@ alias reload="exec $SHELL -l"
 alias histg="history | grep"
 
 
-# Redshift shortcuts
-alias fabric="psql -U smithp -d fabric -h newtech-fabric.czpwavkj0iay.us-east-1.redshift.amazonaws.com -p 5439"
-alias fabricadmin="psql -U fabricadmin -d fabric -h newtech-fabric.czpwavkj0iay.us-east-1.redshift.amazonaws.com -p 5439"
-alias fabricetltest="psql -U etluser_test -d fabric -h newtech-fabric.czpwavkj0iay.us-east-1.redshift.amazonaws.com -p 5439"
-
-# assuming pg2txt is in the path
-std_pg2txt() {
-  pg2txt -h newtech-fabric.czpwavkj0iay.us-east-1.redshift.amazonaws.com -p 5439 -d fabric -u etluser_test -f $1 -titles=true
-}
-alias pg=std_pg2txt
-
-
-std_pg2txt_no_titles() {
-  pg2txt -h newtech-fabric.czpwavkj0iay.us-east-1.redshift.amazonaws.com -p 5439 -d fabric -u etluser_test -f $1
-}
-alias pgnt=std_pg2txt_no_titles
 
 alias xtime="gtime -f '%Uu %Ss %er %MkB %C'"
